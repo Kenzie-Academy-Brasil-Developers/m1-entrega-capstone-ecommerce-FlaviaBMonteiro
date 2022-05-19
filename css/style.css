@@ -1,0 +1,313 @@
+body, header, main, aside, img, nav, ul, li, a, h2, h3, div ,p , figure {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+.menu_sup {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 105%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+}
+.logo
+{
+    width: 70%;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-left: 23px;
+}
+.logo img {
+    height: 40px;
+}
+.menu_nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+  
+}
+.menu_nav {
+    margin-top: 23px;
+    margin-bottom: 23px;
+   
+}
+.menu_nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #242424;
+}
+
+.menu_nav a:hover {
+    text-transform: uppercase;
+    color: #37268C;
+    
+}
+.menu_nav_all a {
+    font-weight: 600;
+    color: #292929;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+.vitrine {
+    width: 968px;   
+    display: flex;
+    flex-wrap: wrap;
+    }
+.card {
+    width: 296px;
+    height: 408px;
+    margin: 13px;
+    
+}
+.card:hover {
+   transform: scale(1.05);
+   box-sizing: border-box;
+   border: 1px solid #2E245E;
+	
+}
+.card figure {
+    background-color: #F5F5F5;
+  
+}
+.card img {
+    height: 154px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.categoria {
+    width: 73px;
+    height: 24px;
+    text-align: center;
+    background-color: #2E245E;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0px;
+    padding: 12px 5px;
+    margin: 20px 0px 15px 15px;
+}
+.titulo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 15px 15px 15px 15px;  
+    color: #292929;
+}
+.descricao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px 15px 15px 15px;   
+    color: #242424;
+}
+.preco {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px 0px 15px 15px;  
+    color: #2E245E;
+}
+.addcar {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px 0px 15px 15px;
+    color: #242424;
+}
+.addcar:hover {
+      color: #37268C;
+      text-transform: uppercase;
+}
+aside
+{
+    width:  347px;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+.barrapesquisar {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.pesquisabox {
+    box-sizing: border-box;
+    width: 246px;
+    height: 52px;
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #242424;
+}
+.pesquisabotao {
+    box-sizing: border-box;
+    width: 98px;
+    height: 52px;
+    background: #37268C;
+    border: 1px solid #37268C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;  
+    color: #FFFFFF;
+}
+
+.vitrineCarrinho {
+    padding-top: 27px;
+}
+
+.titulocar {
+    height: 50px;
+    background: #37268C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    padding: 13px;
+}
+.prodcarrinho {
+    height: 329px;
+    background: #F5F5F5;
+    overflow-y: auto;
+}
+.cardcarrinho {
+    display: flex;
+    padding-left: 14px;
+}
+.imagemcarrinho img {
+    align-items: center;
+    padding: 10px 0px;
+    width: 88px;
+}
+.imagemcarrinho figure {
+    width: 88px;
+    height: 92px;
+    background: #FFFFFF;
+}
+.removercar {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px 0px 15px 15px;  
+    color: #242424;
+}
+.removercar:hover {
+    color: #37268C;
+    text-transform: uppercase;
+}
+.subtitulocar {
+    display: flex;
+    flex-wrap: nowrap;
+    background: #292929;
+    height: 63px;
+    
+}
+.qtdade { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;;
+    padding-top: 28px;
+    padding-left: 14px;
+    width: 100%;
+
+}
+.totalqtdade { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5F5F5;
+    padding-top: 28px;
+    padding-right: 14px;
+    width: 100%;
+    text-align: right;
+}
+.total { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;;
+    padding-left: 14px;
+    padding-top: 10px;
+    width: 100%;
+
+}
+.totalcar { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5F5F5;
+    padding-right: 14px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: right;
+  
+}
+.carrinhovazio {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #292929;
+    text-align: center;
+    margin-top: 82px;
+}
+.produtovazio {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #242424;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
