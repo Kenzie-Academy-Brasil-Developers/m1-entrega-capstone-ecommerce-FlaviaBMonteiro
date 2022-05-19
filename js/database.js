@@ -14,7 +14,7 @@ const data = [
   {
     id: 2,
     img: "../img/Bolsa_02.png",
-    da: "Bolsa Lateral Listrada",
+    nameItem: "Bolsa Lateral Listrada",
     description:
       "Adicione o charme das listras com o amor felino e esteja pronta para qualquer ocasião",
     value: 69.90,
