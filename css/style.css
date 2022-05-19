@@ -211,12 +211,12 @@ aside
 }
 .imagemcarrinho img {
     align-items: center;
-    padding: 10px 0px;
     width: 88px;
 }
 .imagemcarrinho figure {
     width: 88px;
     height: 92px;
+    margin-top: 15px;
     background: #FFFFFF;
 }
 .removercar {
@@ -308,6 +308,3 @@ aside
     text-align: center;
     margin-top: 10px;
 }
-
-
-
